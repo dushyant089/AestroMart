@@ -1,0 +1,52 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Gmail OAuth credentials and tokens
+**/gmail-oauth/
+**/credentials.json
+**/token.json
+
+# Backup folders and files
+/backend_backup/
+/backend_backup/**
+*.bak
+*.backup
+*.old
+
+# Java / Maven
+**/target/
+**/build/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# IDE and operating system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local project dump
+/project-structure.txt
+
+# Generated project structure files
+**/*-structure.txt
+**/.DS_Store

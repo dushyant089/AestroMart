@@ -1,0 +1,24 @@
+
+# Maven build output
+target/
+
+# Git and IDE files
+.git/
+.idea/
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Gmail OAuth credentials and tokens
+gmail-oauth/
+**/credentials.json
+**/token.json
+
+# Backups
+*.backup
+*.bak
+*.old
