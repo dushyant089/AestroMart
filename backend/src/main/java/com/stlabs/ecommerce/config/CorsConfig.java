@@ -17,6 +17,7 @@ public class CorsConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
+                                "https://aestro-mart.vercel.app",
                                 "https://aestro-mart-git-main-dushyant-rajput.vercel.app"
                         )
                         .allowedMethods(
